@@ -107,7 +107,7 @@ def rodar_sistema():
             cadastrar_chamado(chamados, id, descricao, prioridade)
         elif opcao == "2":
             listar_chamados(chamados)
-        elif opcao == "3":
+        elif opcao == "3": 
             remover_chamados_finalizados(chamados)
         elif opcao == "4":
             listar_por_prioridade(chamados)
